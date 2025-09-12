@@ -1,0 +1,132 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    background-color: #5DC2F1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: #5DC2F1;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #5DC2F1;
+    color: #ffffff;
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-header h4 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.card-header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.card-body label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.btn-primary {
+    background-color: #5DC2F1;
+    border: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.btn-primary:hover {
+    background-color: #4DADC8;
+}
+
+footer {
+    background-color: #5DC2F1;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+h2 {
+    text-align: center;
+    color: #007bff;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.amenity-card {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.amenity-card img {
+    max-width: 350px;
+    height: auto;
+}
+
+.amenity-details {
+    flex: 1;
+    padding: 15px;
+}
+
+.amenity-title {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.amenity-description {
+    color: #555;
+    font-size: 1.2rem;
+}
+
+.amenity-status {
+    margin-top: 10px;
+    color: #28a745;
+    font-size: 1.1rem;
+}
+
+.no-amenities {
+    text-align: center;
+    color: #777;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
